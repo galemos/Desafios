@@ -1,3 +1,5 @@
-n, sf, tv = input(), float(input()), float(input())
-tm = sf + (tv*0.15)
+n = input()
+sf = float(input())
+tv = float(input()) * 0.15
+tm = sf + tv
 print('TOTAL = R$ %0.2f' %(tm))
